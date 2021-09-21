@@ -13,13 +13,16 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar />
         <Switch>
           <Route exact path="/">
             <Main />
           </Route>
+          <div>
+            <NavBar />
+          </div>
+
+          <Footer />
         </Switch>
-        <Footer />
       </Router>
     </div>
   );

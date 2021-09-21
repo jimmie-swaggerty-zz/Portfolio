@@ -10,7 +10,7 @@ const NavBar = (props) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-teal">
             <div className="container">
-                <a className="navbar-brand">Jimmie Designs<img src="" width="100" alt="" /></a>
+                {/* <a className="navbar-brand">Jimmie Designs<img src="" width="100" alt="" /></a> */}
                 <button
                     className="navbar-toggler"
                     type="button"
