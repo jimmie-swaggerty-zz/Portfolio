@@ -61,7 +61,7 @@ const Main = () => {
                                                                         <br />MongoDB
                                                                 </div>
                                                         </div>
-                                                        <div className="d-flex justify-content-around">
+                                                        <div className="d-flex justify-content-around mt-3">
                                                                 <div className="col text-teal text-center">
                                                                         <img src={mysql} className="icon" />
                                                                         <br />MySQL
