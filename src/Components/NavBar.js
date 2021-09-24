@@ -46,12 +46,12 @@ const NavBar = (props) => {
                                 <br />My Toolbelt
                             </a>
                         </li>
-                        <li className="nav-item text-center">
+                        {/* <li className="nav-item text-center">
                             <a href="#myprojects" className="nav-link">
                                 <FontAwesomeIcon icon={faBriefcase} className="fa-2x" />
                                 <br />My Projects
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav-item text-center">
                             <a href="http://github.com/jimmie-swaggerty" target="_blank" className="nav-link">
                                 <FontAwesomeIcon icon={faGithub} className="fa-2x" />

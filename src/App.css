@@ -1,9 +1,9 @@
-* {
-  color: #79B4B7;
-}
-
 .bg-teal {
   background-color: #79B4B7;
+}
+
+.text-teal {
+  color: #79B4B7
 }
 
 .page {
@@ -28,11 +28,13 @@
 
 .card-title {
   font-family: 'Yesteryear', cursive;
+  color: #79B4B7
 }
 
 .teal-border {
   border:#79B4B7 5px solid;
 }
+
 .bg-decorative {
   background-image: url('../src/images/pattern1.png');
 }
@@ -46,19 +48,13 @@ p {
   color: #79B4B7
 }
 
-@media screen and (max-width: 800px){
-
-  .main-logo {max-height: 50vh};
-  .main-banner {height: 50vh;}
-}
-
 .text-body {
   padding: 20px;
   border:#79B4B7 5px solid;
 }
 
 .main-banner {
-  /* height: 100vh; */
+  height: 100vh;
   /* width: 100vw; */
   width: calc(100vw - (100vw - 100%));
   background-repeat: repeat;
@@ -71,7 +67,7 @@ p {
 .main-logo {
   width: 100%;
   /* max-height: 60vh; */
-  height: 90vh;
+  height: 100vh;
   /* margin: 20px; */
   /* margin-top: 15vh; */
   background-size:contain;
@@ -89,11 +85,13 @@ p {
   transform: skew(-10deg)
 }
 
-.text-teal {
-  color: #79B4B7;
-}
-
 .icon {
   width: 50px;
   color: #79B4B7;
+}
+
+
+@media screen and (max-width: 800px){
+  .main-logo {height: 100%}
+  .main-banner {height: 50vh;}
 }

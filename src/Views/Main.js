@@ -1,4 +1,4 @@
-import { faAws, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faAws, faBootstrap, faCss3, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import MainBanner from '../Components/MainBanner'
@@ -19,7 +19,7 @@ const Main = () => {
                         <MainBanner />
                         <NavBar />
                         <div className="container-fluid">
-                                <div className="d-flex row p-2 mt-5 justify-content-around">
+                                <div className="d-flex row p-2 mt-3 justify-content-around">
                                         <div className="col-lg-4 col-12 text-center" id="mystory">
                                                 <div className="bg-decorative teal-border h-100">
                                                         <h1 className="section-header">My Story</h1>
@@ -43,7 +43,7 @@ const Main = () => {
                                                 </div>
                                         </div>
                                 </div>
-                                <div className="d-flex row p-2 justify-content-around mt-5">
+                                <div className="d-flex row p-2 justify-content-around mt-3">
                                         <div className="col-12 text-center" id="mytools">
                                                 <div className="bg-decorative teal-border">
                                                         <h1 className="section-header">My Toolkit</h1>
@@ -68,6 +68,10 @@ const Main = () => {
                                                                         <img src={mongodb} className="icon" />
                                                                         <br />MongoDB
                                                                 </div>
+                                                                <div className="col text-teal text-center">
+                                                                        <FontAwesomeIcon icon={faBootstrap} className="fa-3x text-teal" />
+                                                                        <br />Bootstrap
+                                                                </div>
                                                         </div>
                                                         <div className="d-flex justify-content-around mt-3">
                                                                 <div className="col text-teal text-center">
@@ -83,6 +87,10 @@ const Main = () => {
                                                                         <br />Creative Cloud
                                                                 </div>
                                                                 <div className="col text-teal text-center">
+                                                                        <FontAwesomeIcon icon={faCss3} className="fa-3x text-teal" />
+                                                                        <br />CSS
+                                                                </div>
+                                                                <div className="col text-teal text-center">
                                                                         <FontAwesomeIcon icon={faPlus} className="fa-3x text-teal" />
                                                                         <br />and more!
                                                                 </div>
@@ -90,13 +98,13 @@ const Main = () => {
                                                 </div>
                                         </div>
                                 </div>
-                                {/* <div className="d-flex row p-2 mt-5 justify-content-around">
+                                <div className="d-flex row p-2 mt-3 justify-content-around">
                                         <div className="col-12 text-center" id="myprojects">
                                                 <div className="bg-decorative teal-border">
                                                         <h1 className="section-header">My Projects</h1>
                                                 </div>
                                         </div>
-                                        <div className="col-12">
+                                        {/* <div className="col-12">
                                                 <div className="teal-border" id="projects">
                                                         <Slider divid="projects" childstyle="col-3">
                                                                 {projects.map((project) => {
@@ -110,10 +118,10 @@ const Main = () => {
                                                                 })}
                                                         </Slider>
                                                 </div>
-                                        </div>
-                                </div> */}
+                                        </div> */}
+                                </div>
                         </div>
-                        {/* <Footer /> */}
+                        <Footer />
 
                 </div>
         )
