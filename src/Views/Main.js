@@ -9,6 +9,9 @@ import jquery from '../images/jquery.png'
 import mysql from '../images/mysql.png'
 import adobecc from '../images/adobecc.png'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
+import Footer from '../Components/Footer'
+import Slider from '../Components/Slider'
+import { projects } from '../projects/projects'
 
 const Main = () => {
         return (
@@ -16,12 +19,14 @@ const Main = () => {
                         <MainBanner />
                         <NavBar />
                         <div className="container-fluid">
-                                <div className="d-flex row p-2">
-                                        <div className="col-lg-4 col-12 text-center">
-                                                <h1 className="section-header">My Story</h1>
+                                <div className="d-flex row p-2 mt-5 justify-content-around">
+                                        <div className="col-lg-4 col-12 text-center" id="mystory">
+                                                <div className="bg-decorative teal-border h-100">
+                                                        <h1 className="section-header">My Story</h1>
+                                                </div>
                                         </div>
                                         <div className="col-lg-8 col-12">
-                                                <div className="text-body">
+                                                <div className="text-body text-center">
                                                         <p>
                                                                 My passion for <div className="highlight">web development</div>  started in 6th grade when my tech teacher introduced me to basic HTML. That year, I competed against my upperclassmen in a timed code off and won!
                                                         </p>
@@ -38,11 +43,13 @@ const Main = () => {
                                                 </div>
                                         </div>
                                 </div>
-                                <div className="d-flex row p-2">
-                                        <div className="col-lg-4 col-12 text-center">
-                                                <h1 className="section-header">My Toolkit</h1>
+                                <div className="d-flex row p-2 justify-content-around mt-5">
+                                        <div className="col-12 text-center" id="mytools">
+                                                <div className="bg-decorative teal-border">
+                                                        <h1 className="section-header">My Toolkit</h1>
+                                                </div>
                                         </div>
-                                        <div className="col-lg-8 col-12">
+                                        <div className="col-12">
                                                 <div className="text-body">
                                                         <div className="d-flex justify-content-around">
                                                                 <div className="col text-teal text-center">
@@ -83,7 +90,30 @@ const Main = () => {
                                                 </div>
                                         </div>
                                 </div>
+                                {/* <div className="d-flex row p-2 mt-5 justify-content-around">
+                                        <div className="col-12 text-center" id="myprojects">
+                                                <div className="bg-decorative teal-border">
+                                                        <h1 className="section-header">My Projects</h1>
+                                                </div>
+                                        </div>
+                                        <div className="col-12">
+                                                <div className="teal-border" id="projects">
+                                                        <Slider divid="projects" childstyle="col-3">
+                                                                {projects.map((project) => {
+                                                                        return (
+                                                                                <div className="card p-3">
+                                                                                        <h3 className="card-title text-center">{project.title}</h3>
+                                                                                        <img src={project.image || ""} className="card-top-img" />
+                                                                                        <div className="card-body"><p>{project.description}</p></div>
+                                                                                </div>
+                                                                        )
+                                                                })}
+                                                        </Slider>
+                                                </div>
+                                        </div>
+                                </div> */}
                         </div>
+                        {/* <Footer /> */}
 
                 </div>
         )

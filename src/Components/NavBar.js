@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faBriefcase, faHome, faToolbox } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const NavBar = (props) => {
@@ -33,6 +33,24 @@ const NavBar = (props) => {
                                 <FontAwesomeIcon icon={faHome} className="fa-2x" />
                                 <br />Home
                             </NavLink>
+                        </li>
+                        <li className="nav-item text-center">
+                            <a href="#mystory" className="nav-link">
+                                <FontAwesomeIcon icon={faBook} className="fa-2x" />
+                                <br />My Story
+                            </a>
+                        </li>
+                        <li className="nav-item text-center">
+                            <a href="#mytools" className="nav-link">
+                                <FontAwesomeIcon icon={faToolbox} className="fa-2x" />
+                                <br />My Toolbelt
+                            </a>
+                        </li>
+                        <li className="nav-item text-center">
+                            <a href="#myprojects" className="nav-link">
+                                <FontAwesomeIcon icon={faBriefcase} className="fa-2x" />
+                                <br />My Projects
+                            </a>
                         </li>
                         <li className="nav-item text-center">
                             <a href="http://github.com/jimmie-swaggerty" target="_blank" className="nav-link">

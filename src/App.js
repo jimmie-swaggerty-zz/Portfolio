@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Main from './Views/Main';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
+import MainBanner from './Components/MainBanner';
 
 
 function App() {
@@ -17,11 +18,6 @@ function App() {
           <Route exact path="/">
             <Main />
           </Route>
-          <div>
-            <NavBar />
-          </div>
-
-          <Footer />
         </Switch>
       </Router>
     </div>
