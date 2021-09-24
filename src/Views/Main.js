@@ -99,11 +99,11 @@ const Main = () => {
                                         </div>
                                 </div>
                                 <div className="d-flex row p-2 mt-3 justify-content-around">
-                                        <div className="col-12 text-center" id="myprojects">
+                                        {/* <div className="col-12 text-center" id="myprojects">
                                                 <div className="bg-decorative teal-border">
                                                         <h1 className="section-header">My Projects</h1>
                                                 </div>
-                                        </div>
+                                        </div> */}
                                         {/* <div className="col-12">
                                                 <div className="teal-border" id="projects">
                                                         <Slider divid="projects" childstyle="col-3">
