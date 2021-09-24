@@ -7,9 +7,9 @@ const Main = () => {
                 <div className="">
                         <MainBanner />
                         <NavBar />
-                        <div className="container-flex p-5">
+                        <div className="container-flex">
                                 <div className="d-flex p-2">
-                                        <div className="col-lg-4 col-12 bg-decorative text-center">
+                                        <div className="col-lg-4 col-12 text-center">
                                                 <h1 className="section-header">My Story</h1>
                                         </div>
                                         <div className="col-lg-8 col-12">
@@ -29,12 +29,14 @@ const Main = () => {
                                                 </div>
                                         </div>
                                 </div>
-                                <div className="col-12 bg-decorative text-center m-2">
-                                        <h1 className="section-header">My Toolkit</h1>
-                                </div>
-                                <div className="col-12 m-2">
-                                        <div className="text-body">
-
+                                <div className="d-flex p-2">
+                                        <div className="col-lg-4 col-12 text-center">
+                                                <h1 className="section-header">My Toolkit</h1>
+                                        </div>
+                                        <div className="col-lg-8 col-12 m-2">
+                                                <div className="text-body">
+                                                        <p>test</p>
+                                                </div>
                                         </div>
                                 </div>
                         </div>
