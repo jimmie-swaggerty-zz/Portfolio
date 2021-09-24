@@ -83,3 +83,12 @@ p {
   display: inline-block;
   transform: skew(-10deg)
 }
+
+.text-teal {
+  color: #79B4B7;
+}
+
+.icon {
+  width: 50px;
+  color: #79B4B7;
+}
