@@ -52,7 +52,6 @@ p {
 }
 
 .main-banner {
-  background-image: url('../../client/src/images/mcm-design-01.png');
   /* height: 100vh; */
   /* width: 100vw; */
   width: calc(100vw - (100vw - 100%));
