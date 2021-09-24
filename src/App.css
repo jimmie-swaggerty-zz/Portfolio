@@ -33,7 +33,7 @@ p {
   color: #79B4B7
 }
 
-@media screen and (max-width: 800px){
+/* @media screen and (max-width: 800px){
   .section-header {
     text-align: center;
     background-image: linear-gradient(to right, transparent 0%, #79b4b7 10%, #79b4b7 90%, transparent 100%);
@@ -44,7 +44,7 @@ p {
   }
   .main-logo {max-height: 50vh};
   .main-banner {height: 50vh;}
-}
+} */
 
 .text-body {
   padding: 20px;
