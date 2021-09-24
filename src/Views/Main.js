@@ -7,6 +7,7 @@ import mongodb from '../images/mongodb.png'
 import wix from '../images/wix.png'
 import jquery from '../images/jquery.png'
 import mysql from '../images/mysql.png'
+import adobecc from '../images/adobecc.png'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 const Main = () => {
@@ -41,34 +42,42 @@ const Main = () => {
                                                 <h1 className="section-header">My Toolkit</h1>
                                         </div>
                                         <div className="col-lg-8 col-12">
-                                                <div className="text-body d-flex justify-content-around">
-                                                        <div className="col text-teal text-center">
-                                                                <FontAwesomeIcon icon={faReact} className="fa-3x" />
-                                                                <br />React
+                                                <div className="text-body">
+                                                        <div className="d-flex justify-content-around">
+                                                                <div className="col text-teal text-center">
+                                                                        <FontAwesomeIcon icon={faReact} className="fa-3x" />
+                                                                        <br />React
+                                                                </div>
+                                                                <div className="col text-teal text-center">
+                                                                        <FontAwesomeIcon icon={faNodeJs} className="fa-3x text-teal" />
+                                                                        <br />Node.js
+                                                                </div>
+                                                                <div className="col text-teal text-center">
+                                                                        <FontAwesomeIcon icon={faAws} className="fa-3x text-teal" />
+                                                                        <br />Amazon AWS
+                                                                </div>
+                                                                <div className="col text-teal text-center">
+                                                                        <img src={mongodb} className="icon" />
+                                                                        <br />MongoDB
+                                                                </div>
                                                         </div>
-                                                        <div className="col text-teal text-center">
-                                                                <FontAwesomeIcon icon={faNodeJs} className="fa-3x text-teal" />
-                                                                <br />Node.js
-                                                        </div>
-                                                        <div className="col text-teal text-center">
-                                                                <FontAwesomeIcon icon={faAws} className="fa-3x text-teal" />
-                                                                <br />Amazon AWS
-                                                        </div>
-                                                        <div className="col text-teal text-center">
-                                                                <img src={mongodb} className="icon" />
-                                                                <br />MongoDB
-                                                        </div>
-                                                        <div className="col text-teal text-center">
-                                                                <img src={mysql} className="icon" />
-                                                                <br />MySQL
-                                                        </div>
-                                                        <div className="col text-teal text-center">
-                                                                <img src={jquery} className="icon" />
-                                                                <br />JQuery
-                                                        </div>
-                                                        <div className="col text-teal text-center">
-                                                                <FontAwesomeIcon icon={faPlus} className="fa-3x text-teal" />
-                                                                <br />and more!
+                                                        <div className="d-flex justify-content-around">
+                                                                <div className="col text-teal text-center">
+                                                                        <img src={mysql} className="icon" />
+                                                                        <br />MySQL
+                                                                </div>
+                                                                <div className="col text-teal text-center">
+                                                                        <img src={jquery} className="icon" />
+                                                                        <br />JQuery
+                                                                </div>
+                                                                <div className="col text-teal text-center">
+                                                                        <img src={adobecc} className="icon" />
+                                                                        <br />Creative Cloud
+                                                                </div>
+                                                                <div className="col text-teal text-center">
+                                                                        <FontAwesomeIcon icon={faPlus} className="fa-3x text-teal" />
+                                                                        <br />and more!
+                                                                </div>
                                                         </div>
                                                 </div>
                                         </div>
